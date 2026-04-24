@@ -51,6 +51,26 @@ let user = "Fara";
 let message = "Welcome " + user + "!";
 console.log(message);
 
+/* FUNCTIONS:
+Reusable sets of code statements that perform a specific task/process/routine
+*/
+
+// console.log is a built-in function we use
+console.log("I just used a function!");
+
+// DEFINE (create) your own function
+function prepareForSleep() {
+    // STATEMENTS (actions) to execute for this routine
+    console.log("1. Put on PJs");
+    console.log("2. Brush teeth");
+    console.log("3. Turn the lights off");
+}
+
+// CALL (use) our function
+prepareForSleep(); // can call it again!
+
+
+
 
 
 
